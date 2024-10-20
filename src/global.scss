@@ -1,0 +1,24 @@
+@import '@systemlight/pure.css';
+@import 'element-plus/dist/index.css';
+
+:root {
+  --nav-bar-height: 35px;
+  --nav-bar-color: #3b3c50;
+  --menu-width: 200px;
+  --bg-side-color: rgb(33, 34, 44);
+  --bg-content-color: rgb(40, 42, 54);
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-content-color);
+}
+
+.ele-drag {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}

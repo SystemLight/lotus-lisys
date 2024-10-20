@@ -1,0 +1,30 @@
+{
+  "include": [
+    "src/**/*",
+    "types/**/*",
+    "electron/**/*",
+    "vite.config.ts",
+    "package.json"
+  ],
+  "compilerOptions": {
+    "composite": false,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ]
+  }
+}
